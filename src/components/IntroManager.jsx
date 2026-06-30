@@ -49,13 +49,6 @@ export default function IntroManager({ onFinishIntro }) {
             </div>
 
             {renderSlide()}
-
-            <button
-                onClick={(e) => { e.stopPropagation(); onFinishIntro(); }}
-                className="absolute top-6 right-6 text-sm font-bold uppercase border-2 border-black px-3 py-1 rounded-[10px_20px_10px_20px/20px_10px_20px_10px] hover:bg-black hover:text-white transition-colors z-20"
-            >
-                Skip Intro
-            </button>
         </div>
     );
 }

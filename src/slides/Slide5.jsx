@@ -5,7 +5,6 @@ export default function Slide5({ onNextSlide }) {
     return (
         <SlideLayout
             isTitleSlide={false}
-
             text={"Năm đầu, mình vẫn học tập cùng với mọi người, cũng đạt được một vài thành công nho nhỏ trên con đường mới mẻ này.\nNhưng rồi khi càng học, càng tìm hiểu nhiều, mình càng nhận ra ràng mình chưa đam mê với ngành đủ nhiều như bạn bè, các đàn anh đàn chị đi trước.\nĐiều đó làm mình cảm thấy rất đuối sức, lạc lõng và cô đơn."}
             onNextSlide={onNextSlide}
         >

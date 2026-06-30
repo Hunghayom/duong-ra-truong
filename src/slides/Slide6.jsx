@@ -5,7 +5,6 @@ export default function Slide6({ onNextSlide }) {
     return (
         <SlideLayout
             isTitleSlide={false}
-
             text={"Tuy nhiên thì cuộc sống của mình ở đại học không đến nỗi quá tệ. \nMình gặp nhiều người mới, được tiếp xúc với nhiều thứ, có tốt, có cả xấu.\nCó những cuộc gặp gỡ tình cờ và những cuộc chia li không hẹn trước."}
             onNextSlide={onNextSlide}
         >
