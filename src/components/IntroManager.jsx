@@ -27,18 +27,18 @@ export default function IntroManager({ onFinishIntro }) {
     const renderSlide = () => {
         switch (currentStep) {
             // Truyền hàm onNextSlide xuống các slide
-            case 1: return <Slide1 onNextSlide={handleNext} />;
-            case 2: return <Slide2 onNextSlide={handleNext} />;
-            case 3: return <Slide3 onNextSlide={handleNext} />;
-            case 4: return <Slide4 onNextSlide={handleNext} />;
-            case 5: return <Slide5 onNextSlide={handleNext} />;
-            case 6: return <Slide6 onNextSlide={handleNext} />;
-            case 7: return <Slide7 onNextSlide={handleNext} />;
-            case 8: return <Slide8 onNextSlide={handleNext} />;
-            case 9: return <Slide9 onNextSlide={handleNext} />;
-            case 10: return <Slide10 onNextSlide={handleNext} />;
+            case 1: return <Slide1 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 2: return <Slide2 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 3: return <Slide3 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 4: return <Slide4 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 5: return <Slide5 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 6: return <Slide6 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 7: return <Slide7 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 8: return <Slide8 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 9: return <Slide9 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
+            case 10: return <Slide10 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
 
-            default: return <Slide1 onNextSlide={handleNext} />;
+            default: return <Slide1 onNextSlide={handleNext} onSkipIntro={onSkipIntro} />;
         }
     };
 
