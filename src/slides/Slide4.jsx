@@ -1,11 +1,11 @@
 import React from 'react';
 import SlideLayout from '../components/SlideLayout';
 
-export default function Slide2() {
+export default function Slide4() {
     return (
         <SlideLayout
             isTitleSlide={false}
-            text={"Xin chào mọi người, mình là Tạ Việt Hùng. Mình là sinh viên trường ĐHCN - ĐHQGHN. \nNgày 5/7 tới sẽ là lễ tốt nghiệp của mình."}
+            text="Nên là khi vào trường, mình đã luôn tự hỏi một câu: Mình thật sự thích điều gì? Nghệ thuật hay máy tính? Nghệ thuật là thứ mình thích khi còn bé, còn tin học là môn mình giỏi suốt những năm cấp 3. Và lựa chọn của mình có phải thứ mình thật sự mong muốn hay không...?"
         >
             {/* 
         CHỖ TRỐNG ĐỂ CHÈN ẢNH SVG/ROUGH.JS 
@@ -14,7 +14,7 @@ export default function Slide2() {
             <svg viewBox="0 0 200 200" className="w-full h-full">
                 {/* Ví dụ 1 đường line nháp: <path d="M10 10 L190 190" stroke="black" /> */}
                 <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fill="#9ca3af" fontSize="14">
-                    [ Chừa chỗ chèn ảnh SVG 2 ]
+                    [ Chừa chỗ chèn ảnh SVG 4 ]
                 </text>
             </svg>
         </SlideLayout>

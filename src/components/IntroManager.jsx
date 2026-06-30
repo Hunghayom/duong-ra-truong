@@ -2,12 +2,20 @@ import React, { useState } from 'react';
 // Import tất cả các slide bạn đã tạo
 import Slide1 from '../slides/Slide1';
 import Slide2 from '../slides/Slide2';
-// import Slide3 from '../slides/Slide3'; 
+import Slide3 from '../slides/Slide3';
+import Slide4 from '../slides/Slide4';
+import Slide5 from '../slides/Slide5';
+import Slide6 from '../slides/Slide6';
+import Slide7 from '../slides/Slide7';
+import Slide8 from '../slides/Slide8';
+import Slide9 from '../slides/Slide9';
+import Slide10 from '../slides/Slide10';
+import Slide11 from '../slides/Slide11';
 
 export default function IntroManager({ onFinishIntro }) {
     // Quản lý slide hiện tại (Bắt đầu từ số 1)
     const [currentStep, setCurrentStep] = useState(1);
-    const totalSlides = 2; // Cập nhật số này khi bạn tạo thêm Slide3, Slide4...
+    const totalSlides = 11; // Cập nhật số này khi bạn tạo thêm Slide3, Slide4...
 
     const handleNext = () => {
         if (currentStep < totalSlides) {
@@ -23,7 +31,15 @@ export default function IntroManager({ onFinishIntro }) {
         switch (currentStep) {
             case 1: return <Slide1 />;
             case 2: return <Slide2 />;
-            // case 3: return <Slide3 />;
+            case 3: return <Slide3 />;
+            case 4: return <Slide4 />;
+            case 5: return <Slide5 />;
+            case 6: return <Slide6 />;
+            case 7: return <Slide7 />;
+            case 8: return <Slide8 />;
+            case 9: return <Slide9 />;
+            case 10: return <Slide10 />;
+            case 11: return <Slide11 />;
             default: return <Slide1 />;
         }
     };

@@ -29,7 +29,7 @@ export default function SlideLayout({ title, text, isTitleSlide, children }) {
             {/* KHU VỰC HỘP THOẠI (Chỉ hiện nếu không phải Title Slide) */}
             {!isTitleSlide && (
                 <div className="w-full bg-white border-4 border-black p-4 md:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] min-h-[140px] relative rounded-[15px_225px_15px_255px/255px_15px_225px_15px]">
-                    <p className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: "'Comic Neue', sans-serif" }}>
+                    <p className="text-lg md:text-xl leading-relaxed whitespace-pre-line" style={{ fontFamily: "'Comic Neue', sans-serif" }}>
                         <TypewriterText text={text} />
                     </p>
 
