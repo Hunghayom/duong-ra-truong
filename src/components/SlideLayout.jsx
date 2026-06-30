@@ -111,7 +111,7 @@ export default function SlideLayout({ title, text, isTitleSlide, children, onNex
 
             {/* KHUNG HIỂN THỊ CHỮ: Rộng 80%, thu hẹp chiều cao, nét run rẩy */}
             <div
-                className="z-10 w-[80%] max-w-5xl bg-white p-8 relative flex flex-col items-center justify-center min-h-[120px] hand-drawn-border"
+                className="z-10 w-[80%] max-w-5xl bg-white p-8 relative flex flex-col items-center justify-center min-h-[120px]"
                 style={{
                     clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
                     border: '3px solid #000',
