@@ -1,12 +1,12 @@
 import React from 'react';
 import SlideLayout from '../components/SlideLayout';
 
-export default function Slide9() {
+export default function Slide9({ onNextSlide }) {
     return (
         <SlideLayout
             isTitleSlide={false}
             text={"Tớ nhận ra mình không cần phải chọn một trong hai. \nTớ không phải là người chuyên về công nghệ. Tớ cũng không phải là người chuyên vẽ và nghệ thuật các thứ. \nTớ là Hùng.\nBên trong tớ luôn tồn tại hai nhân vật song hành, và hiện giờ tớ cảm thấy ổn về điều đó."}
-
+            onNextSlide={onNextSlide}
         >
             {/* 
         CHỖ TRỐNG ĐỂ CHÈN ẢNH SVG/ROUGH.JS 

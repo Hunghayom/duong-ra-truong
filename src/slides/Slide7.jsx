@@ -1,12 +1,12 @@
 import React from 'react';
 import SlideLayout from '../components/SlideLayout';
 
-export default function Slide7() {
+export default function Slide7({ onNextSlide }) {
     return (
         <SlideLayout
             isTitleSlide={false}
             text={"Tớ gặp được những người bạn, họ rất tốt và giúp đỡ tớ rất nhiều, cả trong việc học và trong cuộc sống. \nCũng có vài cãi vã, nhưng sau đó thì mối quan hệ của chúng tớ lại càng bền hơn."}
-
+            onNextSlide={onNextSlide}
         >
             {/* 
         CHỖ TRỐNG ĐỂ CHÈN ẢNH SVG/ROUGH.JS 

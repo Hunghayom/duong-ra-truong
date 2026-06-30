@@ -1,12 +1,12 @@
 import React from 'react';
 import SlideLayout from '../components/SlideLayout';
 
-export default function Slide8() {
+export default function Slide8({ onNextSlide }) {
     return (
         <SlideLayout
             isTitleSlide={false}
             text={"Tớ cũng tham gia vào câu lạc bộ của trường nữa (thật ra là 2).\nMột là một câu lạc bộ nổi tiếng và lâu đời của trường.\nMột là một câu lạc bộ non trẻ, vừa được thành lập xong. \nTớ rất yêu mọi người, vì họ cho tớ nhiều thứ: Bạn bè, mối quan hệ, trải nghiệm, cảm xúc. \nÀ thì lâu lâu cũng có vài khúc mắc với cãi vã, giận dỗi, nhưng cơ bản thì vẫn là vui."}
-
+            onNextSlide={onNextSlide}
         >
             {/* 
         CHỖ TRỐNG ĐỂ CHÈN ẢNH SVG/ROUGH.JS 
