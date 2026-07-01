@@ -10,10 +10,6 @@ export default function Slide2({ onNextSlide, onSkipIntro }) {
             onNextSlide={onNextSlide}
             onSkipIntro={onSkipIntro}
         >
-            {/* 
-        CHỖ TRỐNG ĐỂ CHÈN ẢNH SVG/ROUGH.JS 
-        Sau này bạn copy thẻ <path d="..."> từ AI/Figma vào thẻ <svg> này 
-      */}
             <DrawingSlide2 />
         </SlideLayout>
     );

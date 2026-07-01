@@ -57,31 +57,31 @@ export const fixedEventsYear1 = [
     },
     {
         id: "f3",
-        title: "Sắc màu Câu lạc bộ",
+        title: "Tham gia Câu lạc bộ",
         description: "Sân trường náo nhiệt với vô số gian hàng CLB đầy màu sắc. Đứng giữa đám đông ồn ào, bạn phân vân không biết nên gửi gắm năm nhất của mình vào đâu.",
         choices: [
             {
                 id: "f3_c1",
                 title: "Gia nhập CLB Hỗ trợ sinh viên",
-                content: "Thử sức với ban Sự kiện để tự tay lên kịch bản, thiết kế trò chơi và gắn kết mọi người.",
-                tech: 0,
-                art: 2,
-                outcome: "Vượt qua vòng phỏng vấn đầy tiếng cười, bạn bắt tay ngay vào việc brainstorm ý tưởng cho chuyến picnic sắp tới của hội."
+                content: "Thử sức với ban Truyền thông để học hỏi về thiết kế, cũng như tham gia các hoạt động của CLB để giúp đỡ các bạn sinh viên khác.",
+                tech: 2,
+                art: 3,
+                outcome: "Vượt qua vòng phỏng vấn, bạn được gặp gỡ nhiều anh chị vừa giỏi tẹh vừa giỏi thiết kế."
             },
             {
                 id: "f3_c2",
                 title: "Đầu quân cho Không gian Sáng tạo",
                 content: "Nộp đơn vào nhóm học thuật chuyên sâu để rèn giũa kỹ năng lập trình và làm quen với dự án thực tế.",
-                tech: 2,
+                tech: 3,
                 art: 0,
-                outcome: "Trở thành thành viên chính thức, bạn bắt đầu tham gia những buổi training nội bộ cực chất và được tiếp xúc với hàng loạt thiết bị công nghệ xịn sò."
+                outcome: "Trở thành thành viên, bạn được học về cấu trúc dữ liệu và giải thuật, cũng như được tiếp xúc với hàng loạt thiết bị công nghệ xịn sò."
             },
             {
                 id: "f3_c3",
                 title: "Về phòng làm vài ván game",
-                content: "Bỏ qua hết ồn ào hội nhóm, về phòng trọ mở server rủ đám bạn cũ xây dựng thế giới ảo.",
+                content: "Kệ CLB, về phòng trọ mở server rủ đám bạn mới làm thân xây dựng thế giới trong minecraft.",
                 tech: -1,
-                art: -1,
+                art: 1,
                 outcome: "Một \"kỳ quan\" nhà kính tuyệt đẹp ra đời trong game, nhưng đổi lại bạn lỡ mất nhịp đập năng động của giảng đường. Cảm giác lạc lõng dường như lại lớn thêm một chút."
             }
         ]
@@ -89,7 +89,7 @@ export const fixedEventsYear1 = [
     {
         id: "f4",
         title: "Bài tập lớn đầu tay",
-        description: "Nhóm của bạn đang bắt tay làm một tựa game nhỏ mang tên \"Generations\". Cả đội đang tranh cãi gay gắt: nên ưu tiên xử lý logic mượt mà hay chau chuốt đồ họa trước?",
+        description: "Nhóm của bạn đang bắt tay làm một tựa game nhỏ cho bài tập lớn cuối kỳ. Cả đội đang tranh cãi gay gắt: nên ưu tiên xử lý logic mượt mà hay chau chuốt đồ họa trước?",
         choices: [
             {
                 id: "f4_c1",
@@ -97,7 +97,7 @@ export const fixedEventsYear1 = [
                 content: "Tự tin nhận phần xương sống của game: viết code xử lý sự kiện, tính toán xác suất và hệ thống điểm số.",
                 tech: 2,
                 art: -1,
-                outcome: "Game vận hành trơn tru không một vết xước. Có điều, giao diện trông thô sơ và tẻ nhạt như những trang web từ những năm 2000."
+                outcome: "Game vận hành trơn tru không một vết xước. Có điều, giao diện trông hơi xấu, chắc hơn commandline được một tí màu mè."
             },
             {
                 id: "f4_c2",
@@ -105,14 +105,14 @@ export const fixedEventsYear1 = [
                 content: "Đảm nhận khâu mỹ thuật, tỉ mẩn thiết kế từng icon, phối màu và căn chỉnh hiệu ứng chuyển cảnh.",
                 tech: -1,
                 art: 2,
-                outcome: "Game đẹp lung linh như một bộ phim hoạt hình nghệ thuật. Tiếc là khi thuyết trình, các nút bấm bị đơ vì thiếu code liên kết phía sau."
+                outcome: "Được thầy khen vì đồ họa đẹp. Nhưng trong lúc thuyết trình, các nút bấm bị đơ vì code liên kết phía sau đột nhiên bị lỗi mà còn giải thích không kĩ càng."
             },
             {
                 id: "f4_c3",
-                title: "Tích hợp \"Lịch sử gia đình\"",
-                content: "Đề xuất ý tưởng táo bạo: kết hợp đồ họa giao diện động với thuật toán xác suất sinh tồn để tạo ra hệ thống life-events.",
+                title: "Đề xuất tính năng mới",
+                content: "Đề xuất ý tưởng táo bạo: kết hợp đồ họa giao diện động với thuật toán xác suất sinh tồn để tạo ra hệ thống life-events cho game thêm đặc sắc.",
                 tech: 2,
-                art: 2,
+                art: 1,
                 outcome: "Cả nhóm ôm lap thức trắng mấy đêm liền để \"co-op\" gõ code và vẽ vời. Đổi lại, một sản phẩm đầy chiều sâu ra đời và giành trọn điểm A+ tuyệt đối từ thầy cô!"
             }
         ]
