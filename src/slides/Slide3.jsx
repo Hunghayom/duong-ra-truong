@@ -6,7 +6,7 @@ export default function Slide3({ onNextSlide, onSkipIntro }) {
     return (
         <SlideLayout
             isTitleSlide={false}
-            text={"Để mà nói thì đây không phải nguyện vọng 1 của mình. \nNguyện vọng 1 của mình là các trường kiến trúc với mỹ thuật thôi, vì mình rất thích vẽ dù không giỏi lắm. \nNhưng, như một sự sắp đặt tình cờ, mình đã nhập học ở đây"}
+            text={"Để mà nói thì đây không phải nguyện vọng 1 của mình. \nNguyện vọng 1 của mình là các trường kiến trúc với mỹ thuật cơ, vì mình rất thích vẽ (dù không giỏi lắm). \nNhưng, như một sự sắp đặt tình cờ, mình đã nhập học ở đây"}
             onNextSlide={onNextSlide}
             onSkipIntro={onSkipIntro}
         >
