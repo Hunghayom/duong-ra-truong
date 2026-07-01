@@ -8,8 +8,8 @@ export default function DrawingSlide4() {
                 viewBox="0 0 2132 1080" style={{ enableBackground: 'new 0 0 2132 1080' }} xmlSpace="preserve">
                 <style type="text/css">
                     {`
-                        .st0{fill:#05222D;}
-                        .st1{fill:none;stroke:#05222D;stroke-width:1.5;stroke-miterlimit:10;}
+                        .st0{fill:none;stroke:#05222D;stroke-width:1.5;stroke-miterlimit:10;}
+                        .st1{fill:#05222D;}
                         `}
                 </style>
                 <g id="Head">
