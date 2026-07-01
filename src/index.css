@@ -5,29 +5,3 @@
 body {
   color: #05222d;
 }
-
-@keyframes wiggle {
-  0% {
-    transform: translate(0px, 0px);
-  }
-
-  25% {
-    transform: translate(1px, 1px);
-  }
-
-  50% {
-    transform: translate(-1px, 0px);
-  }
-
-  75% {
-    transform: translate(1px, -1px);
-  }
-
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-
-.hand-drawn-border {
-  animation: wiggle 0.5s infinite;
-}

@@ -8,7 +8,7 @@ export default function MainMenu({ onPlay }) {
                 style={{ clipPath: 'polygon(2% 2%, 98% 4%, 99% 97%, 1% 98%)' }}>
                 Đường Ra Trường
             </h1>
-            <p className="text-xl mb-12 text-gray-600 font-semibold">Bản lĩnh Công nghệ - Tâm hồn Nghệ thuật</p>
+            <p className="text-xl mb-12 text-gray-600 font-semibold">Trò chơi mô phỏng hành trình ra trường của một bạn sinh viên công nghệ yêu nghệ thuật</p>
 
             <motion.button
                 whileHover={{ scale: 1.05 }}
