@@ -3,9 +3,9 @@ import React from 'react';
 export default function DrawingSlide2() {
     return (
         // Đảm bảo viewBox khớp với kích thước file SVG của bạn
-        <svg viewBox="-212 0 2345 1080" className="w-full h-full">
+        <svg viewBox="212 0 2345 1080" className="w-full h-full">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="-212 0 1920 1080" style={{ enableBackground: 'new -212 0 2345 1080' }} xmlSpace="preserve">
+                viewBox="212 0 1920 1080" style={{ enableBackground: 'new 212 0 2345 1080' }} xmlSpace="preserve">
                 <style type="text/css">
                     {`
                         .st0{fill:#05222D;}
