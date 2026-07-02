@@ -2,8 +2,12 @@ import React from 'react';
 
 export default function Tutorial({ onStartLevel }) {
     return (
-        <div className="w-full h-screen flex flex-col items-center justify-center bg-gray-50 p-6" style={{ fontFamily: "'Playpen Sans', cursive" }}>
-            <div className="max-w-4xl w-full bg-white border-[3px] border-black p-8 hand-drawn-border mb-8"
+        <div className="relative w-full h-screen flex flex-col items-center justify-center bg-white text-black overflow-hidden p-6" style={{ fontFamily: "'Playpen Sans', cursive" }}>
+
+            {/* Nền chấm bi chuẩn */}
+            <div className="absolute inset-0 opacity-10 pointer-events-none z-0" style={{ backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+
+            <div className="relative z-10 max-w-4xl w-full bg-white border-[3px] border-black p-8 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mb-8"
                 style={{ borderRadius: '15px 225px 15px 255px/255px 15px 225px 15px' }}>
                 <h2 className="text-4xl font-bold mb-6 text-center border-b-2 border-dashed border-black pb-4">Hướng dẫn Trò chơi</h2>
                 <ul className="text-xl space-y-4 font-semibold text-gray-800 leading-relaxed">
@@ -17,7 +21,7 @@ export default function Tutorial({ onStartLevel }) {
 
             <button
                 onClick={onStartLevel}
-                className="px-10 py-3 text-2xl font-bold bg-white text-black border-[3px] border-black hover:bg-black hover:text-white transition-colors"
+                className="relative z-10 px-10 py-3 text-2xl font-bold bg-white text-black border-[3px] border-black hover:bg-black hover:text-white transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
                 style={{ borderRadius: '25px 10px 25px 10px/10px 25px 10px 25px' }}
             >
                 Đã hiểu, Bắt đầu Năm Nhất!
