@@ -143,10 +143,19 @@ export default function GameLevel1({ onLevelComplete, bgmVolume, sfxVolume }) {
     }
 
     return (
-        <div className="w-full h-screen overflow-hidden bg-white px-4 py-2 md:px-8 md:py-4 flex flex-col items-center justify-between" style={{ fontFamily: "'Playpen Sans', cursive" }}>
+        <div className="w-full h-screen overflow-hidden bg-white px-4 py-2 md:px-8 md:py-4 flex flex-col items-center justify-between relative" style={{ fontFamily: "'Playpen Sans', cursive" }}>
+
+            {/* 🌟 THÊM LỚP NỀN CHẤM BI VÀO ĐÂY 🌟 */}
+            <div
+                className="absolute inset-0 opacity-15 pointer-events-none z-0"
+                style={{
+                    backgroundImage: 'radial-gradient(circle, #000 1.5px, transparent 1.5px)',
+                    backgroundSize: '24px 24px'
+                }}
+            ></div>
 
             {/* HUD GÓC TRÊN */}
-            <div className="w-full max-w-6xl flex justify-between items-center mb-2 mt-8 md:mt-2">
+            <div className="w-full max-w-6xl flex justify-between items-center mb-2 mt-8 md:mt-2 z-10">
                 <div className="text-2xl md:text-3xl font-bold border-[3px] border-black px-6 py-1 bg-white ml-14 md:ml-0" style={{ borderRadius: '8px 12px 10px 8px' }}>
                     Năm nhất
                 </div>
