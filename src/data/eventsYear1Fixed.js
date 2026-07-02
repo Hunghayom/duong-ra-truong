@@ -15,14 +15,14 @@ export const fixedEventsYear1 = [
                 id: "f1_c2",
                 title: "Thả hồn theo sở thích",
                 content: "Bạn lấy cuốn sổ tay ra, ngồi xuống ghế đá và vẽ lại khung cảnh ngày nhập học để vơi đi sự nuối tiếc.",
-                tech: -1, art: 2,
+                tech: -1, art: 3,
                 outcome: "Bức vẽ tuyệt đẹp giúp bạn giải tỏa căng thẳng, nhưng bạn xém chút nữa thì quên mất giờ tập trung điểm danh."
             },
             {
                 id: "f1_c3",
                 title: "Tìm bạn mới",
                 content: "Chủ động chào hỏi người bên cạnh xem họ có sở thích làm game không.",
-                tech: 1, art: 1,
+                tech: 2, art: 2,
                 outcome: "Trùng hợp thay, người bạn mới cũng thích thiết kế game. Cả hai lập tức tìm được tiếng nói chung."
             }
         ]
@@ -36,21 +36,21 @@ export const fixedEventsYear1 = [
                 id: "f2_c1",
                 title: "Học vẹt",
                 content: "Cố gắng chép lại mọi thứ, dù không hiểu hết từng dòng lệnh.",
-                tech: 2, art: -2,
+                tech: 4, art: -2,
                 outcome: "Dù không hiểu sâu nhưng bạn vẫn nắm được cấu trúc cơ bản (chắc vậy)."
             },
             {
                 id: "f2_c2",
                 title: "Bị hút hồn",
                 content: "Bạn lên mạng tìm trang hướng dẫn code, sau đó thấy giao diện của họ rất đẹp, bèn dành thời gian để phân tích giao diện của họ.",
-                tech: -1, art: 2,
+                tech: -1, art: 3,
                 outcome: "Mặc dù bị phân tâm khá nhiều nhưng bạn cũng phát hiện ra một số lỗi trong giao diện của họ."
             },
             {
                 id: "f2_c3",
                 title: "Thử cách học mới",
                 content: "Tự vẽ sơ đồ tư duy ra giấy để hiểu logic code trước khi bắt tay vào gõ phím.",
-                tech: 1, art: 1,
+                tech: 2, art: 2,
                 outcome: "Dù vẫn hơi khó hiểu nhưng bạn cảm thấy phương pháp này khá thú vị và phù hợp với mình."
             }
         ]
@@ -65,14 +65,14 @@ export const fixedEventsYear1 = [
                 title: "Gia nhập CLB Hỗ trợ sinh viên",
                 content: "Thử sức với ban Truyền thông để học hỏi về thiết kế, cũng như tham gia các hoạt động của CLB để giúp đỡ các bạn sinh viên khác.",
                 tech: 2,
-                art: 3,
+                art: 4,
                 outcome: "Vượt qua vòng phỏng vấn, bạn được gặp gỡ nhiều anh chị vừa giỏi tẹh vừa giỏi thiết kế."
             },
             {
                 id: "f3_c2",
                 title: "Đầu quân cho Không gian Sáng tạo",
                 content: "Nộp đơn vào nhóm học thuật chuyên sâu để rèn giũa kỹ năng lập trình và làm quen với dự án thực tế.",
-                tech: 3,
+                tech: 4,
                 art: 0,
                 outcome: "Trở thành thành viên, bạn được học về cấu trúc dữ liệu và giải thuật, cũng như được tiếp xúc với hàng loạt thiết bị công nghệ xịn sò."
             },
@@ -81,7 +81,7 @@ export const fixedEventsYear1 = [
                 title: "Về phòng làm vài ván game",
                 content: "Kệ CLB, về phòng trọ mở server rủ đám bạn mới làm thân xây dựng thế giới trong minecraft.",
                 tech: -1,
-                art: 1,
+                art: 2,
                 outcome: "Một \"kỳ quan\" nhà kính tuyệt đẹp ra đời trong game, nhưng đổi lại bạn lỡ mất nhịp đập năng động của giảng đường. Cảm giác lạc lõng dường như lại lớn thêm một chút."
             }
         ]
@@ -95,8 +95,8 @@ export const fixedEventsYear1 = [
                 id: "f4_c1",
                 title: "Cân trọn logic Backend",
                 content: "Tự tin nhận phần xương sống của game: viết code xử lý sự kiện, tính toán xác suất và hệ thống điểm số.",
-                tech: 2,
-                art: -1,
+                tech: 3,
+                art: 0,
                 outcome: "Game vận hành trơn tru không một vết xước. Có điều, giao diện trông hơi xấu, chắc hơn commandline được một tí màu mè."
             },
             {
@@ -104,15 +104,15 @@ export const fixedEventsYear1 = [
                 title: "Gánh phần hình ảnh Frontend",
                 content: "Đảm nhận khâu mỹ thuật, tỉ mẩn thiết kế từng icon, phối màu và căn chỉnh hiệu ứng chuyển cảnh.",
                 tech: -1,
-                art: 2,
+                art: 3,
                 outcome: "Được thầy khen vì đồ họa đẹp. Nhưng trong lúc thuyết trình, các nút bấm bị đơ vì code liên kết phía sau đột nhiên bị lỗi mà còn giải thích không kĩ càng."
             },
             {
                 id: "f4_c3",
                 title: "Đề xuất tính năng mới",
                 content: "Đề xuất ý tưởng táo bạo: kết hợp đồ họa giao diện động với thuật toán xác suất sinh tồn để tạo ra hệ thống life-events cho game thêm đặc sắc.",
-                tech: 2,
-                art: 1,
+                tech: 3,
+                art: 2,
                 outcome: "Cả nhóm ôm lap thức trắng mấy đêm liền để \"co-op\" gõ code và vẽ vời. Đổi lại, một sản phẩm đầy chiều sâu ra đời và giành trọn điểm A+ tuyệt đối từ thầy cô!"
             }
         ]

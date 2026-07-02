@@ -24,7 +24,7 @@ export const randomEventsYear1 = [
                 id: "r1_c3",
                 title: "Tìm kiếm logic",
                 content: "Tập trung ghi chép bài đầy đủ và hay đặt câu hỏi với giảng viên.",
-                tech: 2,
+                tech: 3,
                 art: -1,
                 outcome: "Thầy giáo rất quý bạn, thi thoảng thầy sẽ gọi bạn lên để giải bài mẫu trước lớp."
             }
@@ -56,7 +56,7 @@ export const randomEventsYear1 = [
                 title: "Trải nghiệm \"đồ cổ\"",
                 content: "Cất smartphone đi, lôi chiếc điện thoại cũ bị lỗi màn hình ra dùng tạm.",
                 tech: -2,
-                art: 1,
+                art: 2,
                 outcome: "Một ngày trôi qua thật yên bình khi không bị thông báo mạng xã hội làm phiền. Nhưng mà bạn cảm thấy khá mỏi mắt khi nhìn vào đống sọc trên màn hình quá lâu"
             }
         ]
@@ -71,14 +71,14 @@ export const randomEventsYear1 = [
                 title: "Dựng lâu đài Gothic",
                 content: "Lên ý tưởng thiết kế một công trình đồ sộ mang phong cách Gothic, lấy cảm hứng từ kiến trúc châu Âu, sử dụng các khối đá và gỗ.",
                 tech: 0,
-                art: 2,
+                art: 4,
                 outcome: "Khu trung tâm đẹp lung linh và mang đậm tính nghệ thuật. Cả nhóm trầm trồ khen ngợi gu thẩm mỹ của bạn."
             },
             {
                 id: "r3_c2",
                 title: "Lập trình mod mới",
                 content: "Dành thời gian tìm hiểu về modding và lập trình một mod hoàn toàn mới cho server, thêm vào các tính năng độc đáo: boss mới, item mơi, cơ chế mới, địa hình mới.",
-                tech: 2,
+                tech: 4,
                 art: 0,
                 outcome: "Mọi người khen mod mới hay quá, còn xin share link để chơi chung. Số lượt tải tăng vọt."
             },
@@ -86,8 +86,8 @@ export const randomEventsYear1 = [
                 id: "r3_c3",
                 title: "Đảo bay tự động hóa",
                 content: "Thiết kế một hòn đảo bay lơ lửng giữa không trung, tích hợp hệ thống đường ray và phễu chuyển đồ tự động ẩn bên trong.",
-                tech: 1,
-                art: 2,
+                tech: 4,
+                art: 4,
                 outcome: "Một kiệt tác tuyệt vời kết hợp giữa óc thẩm mỹ bay bổng và kỹ thuật tự động hóa phức tạp khiến ai vào chơi cũng phải kinh ngạc."
             }
         ]
@@ -102,7 +102,7 @@ export const randomEventsYear1 = [
                 title: "Thiết kế game vận động",
                 content: "Tổ chức các trò chơi hoạt náo như ném bóng nước hay chạy tiếp sức để tạo không khí vui nhộn.",
                 tech: -1,
-                art: 1,
+                art: 2,
                 outcome: "Sân trường ngập tràn tiếng cười và sự phấn khích, tuy nhiên Ban tổ chức nhận xét kịch bản chạy trạm hơi đơn giản, thiếu tính thử thách trí tuệ."
             },
             {
@@ -110,15 +110,15 @@ export const randomEventsYear1 = [
                 title: "Thử thách mật mã học",
                 content: "Soạn các mật thư khó nhằn bằng cách kết hợp mật mã Caesar, Vigenere và mã Morse để thử thách IQ của các đội.",
                 tech: 2,
-                art: 1,
+                art: 2,
                 outcome: "Các đội chơi phải vắt óc suy nghĩ vô cùng căng thẳng, nhưng do đề quá khó nên nhiều đội bị kẹt lại quá lâu, làm chậm tiến độ chương trình."
             },
             {
                 id: "r4_c3",
                 title: "Tạo câu đố \"Anti-AI\"",
                 content: "Tự tay vẽ các câu đố logic bằng hình ảnh chứa các chi tiết ẩn giấu mà không một công cụ AI nào có thể quét hay giải hộ được.",
-                tech: 1,
-                art: 2,
+                tech: 3,
+                art: 4,
                 outcome: "Trạm của bạn trở thành điểm nhấn độc đáo nhất năm nay nhờ tính sáng tạo vượt bậc, vừa đẹp mắt lại vừa nói không với việc gian lận bằng điện thoại."
             }
         ]
@@ -140,7 +140,7 @@ export const randomEventsYear1 = [
                 id: "r5_c2",
                 title: "Nhận phần cốt lõi nội dung",
                 content: "Tập trung toàn lực vào việc tìm kiếm tài liệu, hệ thống hóa luận điểm chặt chẽ, để khâu thiết kế slide cho người khác làm.",
-                tech: 2,
+                tech: 3,
                 art: -1,
                 outcome: "Dù slide trông trống trải và thiếu điểm nhấn, nhưng lập luận sắc bén và dẫn chứng thuyết phục của bạn đã cứu vãn cả buổi thuyết trình."
             },
@@ -149,7 +149,7 @@ export const randomEventsYear1 = [
                 title: "Đầu tư hiệu ứng chuyển động",
                 content: "Đảm nhận phần visual, thiết kế slide chuyên nghiệp với tông màu hài hòa và hiệu ứng chuyển cảnh mượt mà.",
                 tech: 0,
-                art: 2,
+                art: 4,
                 outcome: "Khán giả và giảng viên chăm chú theo dõi từng slide không rời mắt. Điểm số cho phần trình bày trực quan đạt điểm tuyệt đối."
             }
         ]
@@ -163,7 +163,7 @@ export const randomEventsYear1 = [
                 id: "r6_c1",
                 title: "Đăng ký thi để lấy động lực",
                 content: "Nộp lệ phí đăng ký lịch thi vào cuối tháng để tự ép bản thân vào kỷ luật thép phải ôn luyện.",
-                tech: 1,
+                tech: 3,
                 art: -1,
                 outcome: "Quá trình ôn thi nhồi nhét khá stress, nhưng bạn đã vượt qua kỳ thi và cầm chắc tấm chứng chỉ trong tay để an tâm cho những năm sau."
             },
@@ -172,14 +172,14 @@ export const randomEventsYear1 = [
                 title: "Luyện nghe qua phim ảnh",
                 content: "Chọn cách ôn luyện thoải mái hơn: xem các bộ phim truyền hình nước ngoài không kèm phụ đề để cải thiện phản xạ nghe.",
                 tech: -1,
-                art: 1,
+                art: 2,
                 outcome: "Khả năng nghe hiểu và ngữ điệu giao tiếp của bạn tiến bộ rõ rệt, nhưng điểm ngữ pháp khi làm bài test học thuật vẫn chưa cải thiện nhiều."
             },
             {
                 id: "r6_c3",
                 title: "Tự code app học từ vựng",
                 content: "Viết một đoạn script tự động cào từ vựng phổ thông trên mạng để tạo ra ứng dụng ôn thẻ flashcard của riêng mình.",
-                tech: 2,
+                tech: 3,
                 art: -1,
                 outcome: "App vận hành rất mượt, nhưng bạn phát hiện mình đã dành 90% thời gian để tối ưu hóa code và sửa lỗi ứng dụng thay vì thực sự học từ vựng."
             }
@@ -202,15 +202,15 @@ export const randomEventsYear1 = [
                 id: "r7_c2",
                 title: "Tra cứu sơ đồ kiến trúc",
                 content: "Dừng lại, mở điện thoại quét mã QR hoặc tải bản vẽ mặt bằng tòa nhà về để phân tích kết cấu và định vị.",
-                tech: 1,
-                art: 1,
+                tech: 3,
+                art: 3,
                 outcome: "Nhờ khả năng đọc hiểu bản vẽ không gian tốt, bạn nhanh chóng phát hiện ra lối đi tắt dẫn thẳng tới phòng học vừa kịp lúc chuông reo."
             },
             {
                 id: "r7_c3",
                 title: "Phân tích dòng người",
                 content: "Quan sát hướng di chuyển của những nhóm sinh viên trông có vẻ vội vã tương tự để phán đoán lối ra vào.",
-                tech: 1,
+                tech: 3,
                 art: 0,
                 outcome: "Thuật toán \"bám đuôi\" hoạt động hiệu quả. Bạn hòa vào dòng người đi trước và bước vào lớp một cách trơn tru."
             }
@@ -226,7 +226,7 @@ export const randomEventsYear1 = [
                 title: "Rời màn hình, đi dạo",
                 content: "Nhấn nút tắt nguồn điện thoại, bước ra ngoài đi dạo quanh hồ để đầu óc được tĩnh lặng.",
                 tech: -1,
-                art: 1,
+                art: 3,
                 outcome: "Tâm hồn bạn được xoa dịu. Bạn nhận ra cuộc sống không phải là một cuộc đua và mỗi người đều có hành trình riêng của mình."
             },
             {
@@ -242,7 +242,7 @@ export const randomEventsYear1 = [
                 title: "Sáng tác để giải tỏa cảm xúc",
                 content: "Lôi cây đàn guitar hoặc cuốn sổ tay ra viết một đoạn nhạc, câu thơ ngắn để giãi bày những suy tư chất chứa trong lòng.",
                 tech: -1,
-                art: 2,
+                art: 4,
                 outcome: "Tác phẩm nhỏ tự biên tự diễn giúp bạn tìm lại sự cân bằng. Nghệ thuật một lần nữa trở thành chỗ dựa tinh thần bình yên của bạn."
             }
         ]
@@ -256,7 +256,7 @@ export const randomEventsYear1 = [
                 id: "r9_c1",
                 title: "Nâng cấp bàn phím cơ",
                 content: "Tậu một chiếc bàn phím cơ custom có tiếng gõ êm tai, giúp nâng cao trải nghiệm gõ code hàng ngày.",
-                tech: 2,
+                tech: 3,
                 art: 0,
                 outcome: "Cảm giác gõ phím cực kỳ sướng tay làm tốc độ gõ tăng vọt, dù thỉnh thoảng tiếng lách cách khiến bạn cùng phòng hơi nhăn mặt."
             },
@@ -265,14 +265,14 @@ export const randomEventsYear1 = [
                 title: "Sắm bảng vẽ điện tử",
                 content: "Quyết định đầu tư một chiếc bảng vẽ vẽ tay để phục vụ cho sở thích vẽ tranh minh họa và thiết kế nhân vật game.",
                 tech: -1,
-                art: 2,
+                art: 3,
                 outcome: "Những nét vẽ digital đầu tiên còn nghuệch ngoạc, nhưng cảm giác tự tay tạo nên những bức vẽ màu sắc mang lại cho bạn niềm vui bất tận."
             },
             {
                 id: "r9_c3",
                 title: "Đầu tư khóa học online",
                 content: "Đăng ký một khóa học online chất lượng cao về Machine Learning và ứng dụng AI để xây dựng nền tảng vững chắc.",
-                tech: 2,
+                tech: 4,
                 art: -1,
                 outcome: "Ví tiền vơi đi rõ rệt, bù lại bạn đã nắm vững những khái niệm cốt lõi làm bệ phóng cho sự nghiệp công nghệ sau này."
             }
@@ -295,7 +295,7 @@ export const randomEventsYear1 = [
                 id: "r10_c2",
                 title: "Tự cấu hình lại mạng",
                 content: "Dùng máy tính cắm dây LAN trực tiếp, truy cập trang quản trị Router để reset cổng và phân bổ lại băng thông.",
-                tech: 2,
+                tech: 4,
                 art: -1,
                 outcome: "Đường truyền mạng chạy ổn định trở lại, và bạn bỗng dưng trở thành vị cứu tinh công nghệ đầy uy tín trong mắt cả xóm trọ."
             },
@@ -303,9 +303,164 @@ export const randomEventsYear1 = [
                 id: "r10_c3",
                 title: "Chơi game Chrome offline",
                 content: "Tận dụng thời gian rảnh rỗi hiếm hoi để phá kỷ lục trò chơi chú khủng long vượt chướng ngại vật quen thuộc trên Chrome.",
-                tech: 1,
-                art: 1,
+                tech: 3,
+                art: 3,
                 outcome: "Bạn rèn luyện được phản xạ tay mắt cực kỳ nhạy bén và ghi được một cột mốc điểm số kỷ lục mới mà bạn bè khó lòng đuổi kịp."
+            }
+        ]
+    },
+    {
+        id: "r11",
+        title: "Thử thách Hackathon 24h",
+        description: "Một cuộc thi Hackathon cấp trường được phát động cho sinh viên năm nhất, yêu cầu xây dựng sản phẩm công nghệ chỉ trong vòng 24 giờ.",
+        choices: [
+            {
+                id: "r11_c1",
+                title: "Cắm đầu viết code thuật toán",
+                content: "Tập trung giải quyết bài toán xử lý dữ liệu phức tạp ở phía sau, bỏ qua phần giao diện hiển thị.",
+                tech: 3,
+                art: -1,
+                outcome: "Thuật toán chạy cực kỳ chính xác và nhanh chóng, nhưng giao diện thô sơ đến mức ban giám khảo phải lắc đầu vì không hiểu cách sử dụng."
+            },
+            {
+                id: "r11_c2",
+                title: "Thiết kế slide và UI ấn tượng",
+                content: "Dành phần lớn thời gian chau chuốt đồ họa, vẽ sơ đồ và làm trang trình bày slide thật bắt mắt.",
+                tech: -1,
+                art: 3,
+                outcome: "Gian hàng trưng bày sản phẩm của nhóm thu hút rất nhiều người xem nhờ thiết kế đẹp, tiếc là ứng dụng thật bị crash ngay khi ban giám khảo bấm nút chạy thử."
+            },
+            {
+                id: "r11_c3",
+                title: "Làm bản demo tương tác",
+                content: "Thiết kế một bản mẫu (prototype) mô phỏng trải nghiệm đầy đủ kết hợp với một vài tính năng cốt lõi chạy ổn định.",
+                tech: 3,
+                art: 3,
+                outcome: "Sản phẩm hoàn thiện hài hòa, demo trơn tru giúp nhóm của bạn đạt được giải Khuyến khích đầu tay cùng sự công nhận từ thầy cô."
+            }
+        ]
+    },
+    {
+        id: "r12",
+        title: "Lắp ráp PC đầu tay",
+        description: "Bạn tích góp được một khoản tiền nhỏ và quyết định tự mua linh kiện về để lắp ráp một bộ máy tính bàn phục vụ cho việc học tập.",
+        choices: [
+            {
+                id: "r12_c1",
+                title: "Tối ưu hiệu năng linh kiện",
+                content: "Dành toàn bộ ngân sách tập trung vào CPU, RAM và ổ cứng SSD tốc độ cao, bỏ qua các yếu tố thẩm mỹ bên ngoài.",
+                tech: 3,
+                art: 0,
+                outcome: "Máy tính biên dịch code và chạy các trình giả lập cực nhanh, tuy nhiên thùng máy trông khá đơn điệu và đống dây cáp bên trong hơi lộn xộn."
+            },
+            {
+                id: "r12_c2",
+                title: "Trang trí đèn LED RGB",
+                content: "Lựa chọn các linh kiện có tích hợp đèn màu và đi dây LED quanh thùng máy để tạo không gian làm việc đậm chất nghệ thuật.",
+                tech: -1,
+                art: 3,
+                outcome: "Góc học tập của bạn trở nên lung linh và đầy cảm hứng mỗi khi đêm xuống, tuy nhiên máy đôi khi bị quá nhiệt do bạn chưa tính toán kỹ luồng khí tản nhiệt."
+            },
+            {
+                id: "r12_c3",
+                title: "Cấu hình cân bằng",
+                content: "Tính toán kỹ lưỡng để phân bổ ngân sách hợp lý giữa hiệu năng phần cứng và hệ thống tản nhiệt khí có thiết kế gọn gàng.",
+                tech: 4,
+                art: 3,
+                outcome: "Bộ PC hoạt động vô cùng êm ái, bền bỉ và có tính thẩm mỹ cao, mang lại trải nghiệm làm việc tối ưu mỗi ngày."
+            }
+        ]
+    },
+    {
+        id: "r13",
+        title: "Thiết kế áo lớp năm nhất",
+        description: "Tập thể lớp của bạn quyết định làm áo đồng phục và tổ chức một cuộc thi nhỏ để chọn ra mẫu thiết kế đại diện.",
+        choices: [
+            {
+                id: "r13_c1",
+                title: "Học vẽ vector trên Illustrator",
+                content: "Tự mày mò học cách sử dụng phần mềm Adobe Illustrator để vẽ lại ý tưởng áo dưới dạng đồ họa vector.",
+                tech: 2,
+                art: 2,
+                outcome: "Quá trình làm quen phần mềm mới khá vất vả, mẫu thiết kế tuy đơn giản nhưng file in ra đạt chuẩn sắc nét và không bị vỡ hạt."
+            },
+            {
+                id: "r13_c2",
+                title: "Vẽ tay họa tiết chibi dễ thương",
+                content: "Dùng bút vẽ phác thảo một hình minh họa chibi ngộ nghĩnh thể hiện đặc trưng tinh nghịch của các thành viên.",
+                tech: -1,
+                art: 3,
+                outcome: "Hình vẽ cực kỳ dễ thương và nhận được nhiều lời khen, nhưng bên nhà in báo lại rằng file ảnh quét tay độ phân giải thấp rất khó để in hàng loạt."
+            },
+            {
+                id: "r13_c3",
+                title: "Thiết kế logo tối giản neon",
+                content: "Kết hợp giữa chữ nghệ thuật (typography) hiện đại và dải màu neon mang phong cách tương lai Cyberpunk cá tính.",
+                tech: 2,
+                art: 4,
+                outcome: "Mẫu thiết kế vô cùng thời thượng và độc đáo, được cả lớp nhất trí bình chọn làm logo chính thức in trên áo lớp."
+            }
+        ]
+    },
+    {
+        id: "r14",
+        title: "Triển lãm Interactive Art",
+        description: "Trường đại học tổ chức một buổi triển lãm nghệ thuật tương tác, nơi người xem có thể tác động vật lý để làm thay đổi tác phẩm.",
+        choices: [
+            {
+                id: "r14_c1",
+                title: "Nghiên cứu lập trình cảm biến",
+                content: "Dành thời gian tìm hiểu về mạch Arduino và các cảm biến khoảng cách để điều khiển hệ thống đèn LED theo bước chân.",
+                tech: 3,
+                art: -1,
+                outcome: "Hệ thống hoạt động chính xác về mặt kỹ thuật, tuy nhiên phần hộp chứa linh kiện bên ngoài trông khá thô sơ và chưa đẹp mắt."
+            },
+            {
+                id: "r14_c2",
+                title: "Trải nghiệm không gian nghệ thuật",
+                content: "Chỉ tập trung vào cảm nhận cách sắp đặt ánh sáng, âm thanh và bố cục để tìm kiếm nguồn cảm hứng sáng tạo.",
+                tech: -1,
+                art: 3,
+                outcome: "Tâm hồn nghệ thuật của bạn được khơi dậy mạnh mẽ với hàng loạt ý tưởng bố cục độc đáo có thể áp dụng vào các dự án game sau này."
+            },
+            {
+                id: "r14_c3",
+                title: "Tự tay thiết kế module trình chiếu",
+                content: "Tự tay viết một đoạn code ngắn xử lý hiệu ứng đồ họa động thay đổi màu sắc theo âm thanh của phòng triển lãm.",
+                tech: 3,
+                art: 3,
+                outcome: "Module tương tác của bạn hoạt động rất thú vị, thu hút đông đảo khách tham quan dừng lại trải nghiệm và chụp ảnh lưu niệm."
+            }
+        ]
+    },
+    {
+        id: "r15",
+        title: "Dự án Freelance đầu đời",
+        description: "Một người quen liên hệ nhờ bạn thiết kế một trang web giới thiệu sản phẩm (Landing Page) đơn giản cho cửa hàng của họ.",
+        choices: [
+            {
+                id: "r15_c1",
+                title: "Tối ưu hóa mã nguồn và SEO",
+                content: "Tập trung viết mã HTML/CSS chuẩn chỉnh, tối ưu dung lượng tải trang và các thẻ meta để trang web lên top tìm kiếm.",
+                tech: 3,
+                art: -1,
+                outcome: "Trang web đạt điểm hiệu năng tối đa khi kiểm tra và tải siêu nhanh, nhưng khách hàng nhận xét giao diện trông hơi đơn điệu."
+            },
+            {
+                id: "r15_c2",
+                title: "Vẽ minh họa độc quyền cho web",
+                content: "Tự tay vẽ các hình minh họa và biểu tượng độc đáo riêng để trang trí cho giao diện web thêm phần sinh động.",
+                tech: -1,
+                art: 3,
+                outcome: "Landing page mang đậm tính nghệ thuật và phong cách riêng, nhưng vì file ảnh quá nặng chưa kịp nén nên tốc độ tải trang bị chậm đi đáng kể."
+            },
+            {
+                id: "r15_c3",
+                title: "Thiết kế Responsive hiện đại",
+                content: "Thiết kế giao diện hiện đại kết hợp bố cục thích ứng (Responsive) hiển thị mượt mà trên cả máy tính lẫn điện thoại.",
+                tech: 4,
+                art: 3,
+                outcome: "Khách hàng vô cùng ưng ý với sản phẩm hoàn thiện, vui vẻ thanh toán thù lao và hứa sẽ tiếp tục hợp tác với bạn trong các dự án sau."
             }
         ]
     }
